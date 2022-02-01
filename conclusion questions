@@ -1,0 +1,33 @@
+Convert the following code segments as instructed.
+Write one if statement:
+if (value > 0):
+    if (value < 10):
+        print("did it")
+
+If (value > 0) and if (value < 10):
+    print(“did it”)
+
+Write multiple if statements:
+if ((len(my_str) > 0) and (my_str!= "password")):
+  print("did it")
+
+if ((len(my_str) > 0) and 
+    if (my_str!= "password")):
+    print("did it")
+
+Write multiple if statements (watch out, this may be trickier than it looks):
+if ((len(my_str) == 0) or (my_str!= "password")):
+  print("did it")
+
+if ((len(my_str) == 0):
+    print(“did it”)
+if (my_str!= "password")):
+  print("did it")
+
+Consider the following debugging techniques and describe how each one is most useful. List the pros and cons of each technique. 
+
+Comments - You can know what your code does and find things easier.
+Print statements - Allows you to see if values are being assigned wrong, or if they’re working.
+Hand tracing - Actually looking at your code again can help you find simple mistakes/errors.
+Test cases vs. user-defined input - Make sure all your inputs will  match up and are being used correctly.
+Debuggers - Breakpoints in code allow you to jump to certain parts of the code and see how your code is working.
